@@ -1,0 +1,163 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
+  <diagram name="Страница — 1" id="dO83J6eRKYU5chW7oJRD">
+    <mxGraphModel dx="1792" dy="749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="GrD2cctRwkVsFGwJkiUz-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="60" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GrD2cctRwkVsFGwJkiUz-4" target="GrD2cctRwkVsFGwJkiUz-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-4" value="Определение априорных распределений (сроки, бюджет, риски)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="80" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GrD2cctRwkVsFGwJkiUz-5" target="GrD2cctRwkVsFGwJkiUz-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-5" value="Имитационное моделирование (Монте-Карло)&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="160" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GrD2cctRwkVsFGwJkiUz-6" target="GrD2cctRwkVsFGwJkiUz-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-6" value="Анализ результатов моделирования (распределение вероятностей)  " style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="240" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GrD2cctRwkVsFGwJkiUz-7" target="GrD2cctRwkVsFGwJkiUz-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-7" value="Байесовское обновление распределений (коррекция вероятностей)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="385" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GrD2cctRwkVsFGwJkiUz-8" target="GrD2cctRwkVsFGwJkiUz-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-21" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GrD2cctRwkVsFGwJkiUz-17" vertex="1" connectable="0">
+          <mxGeometry x="-0.4582" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GrD2cctRwkVsFGwJkiUz-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="563" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-22" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GrD2cctRwkVsFGwJkiUz-20" vertex="1" connectable="0">
+          <mxGeometry x="-0.0892" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-8" value="Есть новые фактические&lt;div&gt;&amp;nbsp;данные?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="95" y="318" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GrD2cctRwkVsFGwJkiUz-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="565" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="315" y="538" />
+              <mxPoint x="165" y="538" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-9" value="Перезапуск Монте-Карло с новыми данными&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="466" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GrD2cctRwkVsFGwJkiUz-11" target="GrD2cctRwkVsFGwJkiUz-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-11" value="Анализ обновленных сценариев (Оптимистичный, Реалистичный, Пессимистичный)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="79" y="626" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="GrD2cctRwkVsFGwJkiUz-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="234" y="746" as="sourcePoint" />
+            <mxPoint x="379" y="736" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="309" y="746" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-26" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GrD2cctRwkVsFGwJkiUz-25" vertex="1" connectable="0">
+          <mxGeometry x="-0.3855" y="3" relative="1" as="geometry">
+            <mxPoint x="3" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-12" value="Вероятность&amp;nbsp;&lt;div&gt;задержки &amp;gt; &lt;span class=&quot;hljs-number&quot;&gt;50&lt;/span&gt;%?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="94" y="706" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-24" value="Коррекция стратегии проекта&amp;nbsp;&lt;div&gt;(добавление ресурсов, изменение плана)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="234" y="776" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="GrD2cctRwkVsFGwJkiUz-24" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="279" y="906" as="sourcePoint" />
+            <mxPoint x="164" y="886" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="309" y="856" />
+              <mxPoint x="164" y="856" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GrD2cctRwkVsFGwJkiUz-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="129" y="856" as="sourcePoint" />
+            <mxPoint x="164" y="886" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-31" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GrD2cctRwkVsFGwJkiUz-30" vertex="1" connectable="0">
+          <mxGeometry x="-0.2846" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-35" value="Оставить план без изменений" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="91.5" y="886" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="GrD2cctRwkVsFGwJkiUz-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="164" y="966" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GrD2cctRwkVsFGwJkiUz-37" target="GrD2cctRwkVsFGwJkiUz-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-37" value="Определение априорных распределений" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-380" y="10" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GrD2cctRwkVsFGwJkiUz-38" target="GrD2cctRwkVsFGwJkiUz-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-38" value="Проведение имитационного моделирования (Метод Монте-Карло)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-380" y="90" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-39" value="Анализ обновленных прогнозов и принятие решений" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-380" y="250" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GrD2cctRwkVsFGwJkiUz-40" target="GrD2cctRwkVsFGwJkiUz-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GrD2cctRwkVsFGwJkiUz-40" value="Обновление вероятностей на основе фактических данных (Байесовский пересчет)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-380" y="170" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y_AfsMCtIv-3wvJ_I9t--1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="142.5" y="565" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="y_AfsMCtIv-3wvJ_I9t--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="y_AfsMCtIv-3wvJ_I9t--2" target="GrD2cctRwkVsFGwJkiUz-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y_AfsMCtIv-3wvJ_I9t--2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="141.5" y="565" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="eDB-Fc87ply5JJ0bal_u-1" value="Начало" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="94" y="10" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eDB-Fc87ply5JJ0bal_u-2" value="Конец" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="96.5" y="965" width="140" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
